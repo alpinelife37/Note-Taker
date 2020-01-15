@@ -9,5 +9,5 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(express.static(__dirname + "/public"));
 app.listen(PORT, function() {
-  console.log("App listening on PORT " + PORT);
+  console.log("Server listening on: http://localhost:" + PORT);
 });

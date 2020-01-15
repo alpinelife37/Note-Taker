@@ -3,12 +3,17 @@ body {
   height: 100%;
   margin: 0;
   padding: 0;
+  background-color: darkolivegreen;
 }
 
 .save-note {
   display: none;
 }
 
+.card,
+.jumbotron {
+  background-color: green;
+}
 .icons i {
   margin-left: 15px;
   margin-right: 15px;
@@ -22,6 +27,7 @@ body {
   width: 100%;
   outline: none;
   border: none;
+  background-color: greenyellow;
 }
 
 .note-textarea {
@@ -30,6 +36,10 @@ body {
   padding-top: 15px;
 }
 
+.navbar {
+  background-color: yellow !important;
+  color: black !important;
+}
 .note-title {
   height: 50px;
   margin-top: 13px;
@@ -38,7 +48,7 @@ body {
 
 .note-title:read-only,
 .note-textarea:read-only {
-  color: #757575;
+  color: darkgreen !important;
 }
 
 .list-container .card {
@@ -70,4 +80,9 @@ body {
   border-right: none;
   padding: 20px;
   cursor: pointer;
+}
+
+.navbar-brand {
+  color: black !important;
+  font-size: x-large;
 }

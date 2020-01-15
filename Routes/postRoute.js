@@ -13,7 +13,9 @@ module.exports = app => {
       text: req.body.text
     };
     newArray.push(newNote);
-    fs.writeFile("./db/db.json", JSON.stringify(newArray), () => {});
+    fs.writeFile("./db/db.json", JSON.stringify(newArray), () => {
+      console.log("wrote new note to DataBase");
+    });
     res.json(newNote);
   });
 };
