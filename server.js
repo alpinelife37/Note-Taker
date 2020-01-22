@@ -7,4 +7,4 @@ app.use(express.static(__dirname + "/public"));
 app.listen(PORT, function() {
   console.log("Server listening on: http://localhost:" + PORT);
 });
-require("./routes/htmlRoute")(app);
+require("./Routes/htmlRoute")(app);
