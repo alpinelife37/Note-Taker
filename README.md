@@ -7,6 +7,7 @@
 Node app that starts a server on local host port 4000, then allows the user to input notes on notes.html. The user can save, review, and delete the notes as well.
 
 ![Example profile](./public/assets/images/example.png)
+![Deployed Link](https://powerful-stream-73694.herokuapp.com/)
 
 ### INSTALLATION INSTRUCTIONS
 
